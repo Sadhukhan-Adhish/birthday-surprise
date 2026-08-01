@@ -913,7 +913,7 @@ transform:scale(1);
     }
 
     .hero-content h1{
-        font-size:48px;
+        font-size:42px;
     }
 
     .hero-content p{
@@ -951,6 +951,64 @@ transform:scale(1);
         padding:25px;
 
     }
+
+    #finalSection h1{
+    font-size:55px;
+    line-height:1.1;
+}
+
+#finalSection p{
+    font-size:20px;
+    width:90%;
+    margin:auto;
+}
+
+#backFinal{
+    margin-top:35px;
+}
+
+.gifts{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.gift-box{
+    width:140px;
+    height:140px;
+}
+
+.letter-card{
+    width:96%;
+    max-width:none;
+    padding:18px;
+}
+
+#letterText p{
+    font-size:19px;
+    line-height:1.7;
+}
+.hero-content h1{
+    font-size:42px;
+}
+
+.vault-card h1{
+    font-size:42px;
+}
+
+.gift-box{
+    width:125px;
+    height:125px;
+}
+
+.gift-box h2{
+    font-size:18px;
+}
+
+.gift-box p{
+    font-size:14px;
+}
 
 }
 
