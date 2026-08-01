@@ -953,14 +953,29 @@ transform:scale(1);
     }
 
     #finalSection h1{
-    font-size:55px;
-    line-height:1.1;
+
+    font-size:44px;
+
+    line-height:1.05;
+
+    text-align:center;
+
+    padding:0 8px;
+
 }
 
 #finalSection p{
-    font-size:20px;
+
     width:90%;
-    margin:auto;
+
+    font-size:17px;
+
+    line-height:1.5;
+
+    margin:18px auto;
+
+    text-align:center;
+
 }
 
 #backFinal{
@@ -1011,25 +1026,29 @@ transform:scale(1);
 
 #cakeSection h1{
 
-    font-size:28px;
-
-    line-height:1.2;
+    font-size:20px;
 
     text-align:center;
 
-    padding:0 10px;
+    white-space:nowrap;
 
 }
 
 #giftSection h1{
 
-    font-size:28px;
+    font-size:20px;
 
-    line-height:1.3;
+    white-space:nowrap;
 
-    padding:0 20px;
+    text-align:center;
 
     margin-bottom:20px;
+
+}
+
+#finalSection{
+
+    padding-top:35px;
 
 }
 }
@@ -1441,13 +1460,15 @@ z-index:400;
 
 #cakeSection h1{
 
-color:white;
+    color:white;
 
-font-size:55px;
+    font-size:55px;
 
-margin-bottom:40px;
+    margin-bottom:40px;
 
-font-family:"Great Vibes",cursive;
+    font-family:"Great Vibes",cursive;
+
+    white-space:nowrap;
 
 }
 
@@ -1704,7 +1725,8 @@ position:fixed;
 
 inset:0;
 
-justify-content:center;
+justify-content:flex-start;
+padding-top:60px;
 
 align-items:center;
 
@@ -1720,31 +1742,32 @@ text-align:center;
 
 #finalSection h1{
 
-position:relative;
-z-index:2;
+    color:white;
 
-font-size:70px;
+    font-family:"Great Vibes",cursive;
 
-color:white;
+    font-size:90px;
 
-font-family:"Great Vibes",cursive;
+    line-height:1.1;
 
-animation:glow 2s infinite alternate;
+    text-align:center;
+
+    padding:0 20px;
 
 }
 
 #finalSection p{
 
     position:relative;
-z-index:2;
+    z-index:2;
 
-margin-top:30px;
+    margin-top:30px;
 
-font-size:28px;
+    font-size:28px;
 
-color:white;
+    color:white;
 
-line-height:1.7;
+    line-height:1.7;
 
 }
 
