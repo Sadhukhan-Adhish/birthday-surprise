@@ -1036,13 +1036,17 @@ transform:scale(1);
 
 #giftSection h1{
 
-    font-size:20px;
+    font-size:30px;
 
-    white-space:nowrap;
+    line-height:1.2;
 
     text-align:center;
 
-    margin-bottom:20px;
+    padding:0 15px;
+
+    margin-bottom:25px;
+
+    white-space:normal;
 
 }
 
