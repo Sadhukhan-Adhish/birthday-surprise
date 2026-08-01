@@ -2207,13 +2207,9 @@ transform:translateY(0);
 
     #finalSection h1{
 
-    font-size:36px !important;
+    font-size:20px !important;
 
-    line-height:1.2;
-
-    text-align:center;
-
-    padding:0 15px;
+    color:yellow !important;
 
 }
 
@@ -2253,9 +2249,9 @@ transform:translateY(0);
     font-size:19px;
     line-height:1.7;
 }
-.hero-content h1{
+/* .hero-content h1{
     font-size:42px;
-}
+} */
 
 .vault-card h1{
     font-size:42px;
