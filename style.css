@@ -2208,9 +2208,11 @@ transform:translateY(0);
 
     #finalSection h1{
 
-    font-size:20px !important;
+    font-size:23px !important;
 
-    color:yellow !important;
+    color:white;
+
+    line-height:1.2;
 
 }
 
@@ -2276,7 +2278,7 @@ transform:translateY(0);
 
 #cakeSection h1{
 
-    font-size:20px;
+    font-size:23px;
 
     text-align:center;
 
