@@ -906,161 +906,7 @@ transform:scale(1);
 /* MOBILE RESPONSIVE */
 /* ========================= */
 
-@media (max-width:768px){
 
-    #hero{
-        padding:20px;
-    }
-
-    .hero-content h1{
-        font-size:42px;
-    }
-
-    .hero-content p{
-        font-size:18px;
-        line-height:1.6;
-        padding:0 15px;
-    }
-
-    #giftBtn{
-
-        font-size:18px;
-
-        padding:14px 28px;
-
-        margin-top:25px;
-
-    }
-
-    #countText{
-        font-size:150px;
-    }
-
-    #pass{
-
-        width:85%;
-
-        font-size:18px;
-
-    }
-
-    .vault-card{
-
-        width:90%;
-
-        padding:25px;
-
-    }
-
-    #finalSection h1{
-
-    font-size:40px;
-
-    line-height:1.2;
-
-    text-align:center;
-
-    padding:0 15px;
-
-}
-
-#finalSection p{
-
-    width:90%;
-
-    font-size:17px;
-
-    line-height:1.5;
-
-    margin:18px auto;
-
-    text-align:center;
-
-}
-
-#backFinal{
-    margin-top:35px;
-}
-
-.gifts{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:20px;
-}
-
-
-.letter-card{
-    width:96%;
-    max-width:none;
-    padding:18px;
-}
-
-#letterText p{
-    font-size:19px;
-    line-height:1.7;
-}
-.hero-content h1{
-    font-size:42px;
-}
-
-.vault-card h1{
-    font-size:42px;
-}
-
-.gift-box{
-    width:115px;
-    height:115px;
-    font-size:50px;
-}
-
-.gift-box h2{
-    font-size:18px;
-}
-
-.gift-box p{
-    font-size:13px;
-    text-align:center;
-}
-
-
-#cakeSection h1{
-
-    font-size:20px;
-
-    text-align:center;
-
-    white-space:nowrap;
-
-}
-
-#giftSection h1{
-
-    font-size:28px;
-
-    line-height:1.2;
-
-    text-align:center;
-
-    width:100%;
-
-    padding:0 12px;
-
-    box-sizing:border-box;
-
-    margin-bottom:25px;
-
-}
-
-#finalSection{
-
-    padding-top:35px;
-
-}
-#finalSection{
-    padding-bottom: max(30px, env(safe-area-inset-bottom));
-}
-}
 
 
 
@@ -2311,4 +2157,160 @@ transform:translateY(0);
 
 }
 
+}
+
+@media (max-width:768px){
+
+    #hero{
+        padding:20px;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+        line-height:1.6;
+        padding:0 15px;
+    }
+
+    #giftBtn{
+
+        font-size:18px;
+
+        padding:14px 28px;
+
+        margin-top:25px;
+
+    }
+
+    #countText{
+        font-size:150px;
+    }
+
+    #pass{
+
+        width:85%;
+
+        font-size:18px;
+
+    }
+
+    .vault-card{
+
+        width:90%;
+
+        padding:25px;
+
+    }
+
+    #finalSection h1{
+
+    font-size:36px !important;
+
+    line-height:1.2;
+
+    text-align:center;
+
+    padding:0 15px;
+
+}
+
+#finalSection p{
+
+    width:90%;
+
+    font-size:17px;
+
+    line-height:1.5;
+
+    margin:18px auto;
+
+    text-align:center;
+
+}
+
+#backFinal{
+    margin-top:35px;
+}
+
+.gifts{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+
+.letter-card{
+    width:96%;
+    max-width:none;
+    padding:18px;
+}
+
+#letterText p{
+    font-size:19px;
+    line-height:1.7;
+}
+.hero-content h1{
+    font-size:42px;
+}
+
+.vault-card h1{
+    font-size:42px;
+}
+
+.gift-box{
+    width:115px;
+    height:115px;
+    font-size:50px;
+}
+
+.gift-box h2{
+    font-size:18px;
+}
+
+.gift-box p{
+    font-size:13px;
+    text-align:center;
+}
+
+
+#cakeSection h1{
+
+    font-size:20px;
+
+    text-align:center;
+
+    white-space:nowrap;
+
+}
+
+#giftSection h1{
+
+    font-size:28px;
+
+    line-height:1.2;
+
+    text-align:center;
+
+    width:100%;
+
+    padding:0 12px;
+
+    box-sizing:border-box;
+
+    margin-bottom:25px;
+
+}
+
+#finalSection{
+
+    padding-top:35px;
+
+}
+#finalSection{
+    padding-bottom: max(30px, env(safe-area-inset-bottom));
+}
 }
