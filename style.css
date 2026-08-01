@@ -954,13 +954,13 @@ transform:scale(1);
 
     #finalSection h1{
 
-    font-size:44px;
+    font-size:40px;
 
-    line-height:1.05;
+    line-height:1.2;
 
     text-align:center;
 
-    padding:0 8px;
+    padding:0 15px;
 
 }
 
@@ -1056,6 +1056,9 @@ transform:scale(1);
 
     padding-top:35px;
 
+}
+#finalSection{
+    padding-bottom: max(30px, env(safe-area-inset-bottom));
 }
 }
 
@@ -1740,7 +1743,7 @@ position:fixed;
 inset:0;
 
 justify-content:flex-start;
-padding-top:60px;
+padding-top:30px;
 
 align-items:center;
 
