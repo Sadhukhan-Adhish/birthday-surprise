@@ -974,10 +974,6 @@ transform:scale(1);
     gap:20px;
 }
 
-.gift-box{
-    width:140px;
-    height:140px;
-}
 
 .letter-card{
     width:96%;
@@ -998,8 +994,9 @@ transform:scale(1);
 }
 
 .gift-box{
-    width:125px;
-    height:125px;
+    width:115px;
+    height:115px;
+    font-size:50px;
 }
 
 .gift-box h2{
@@ -1007,9 +1004,34 @@ transform:scale(1);
 }
 
 .gift-box p{
-    font-size:14px;
+    font-size:13px;
+    text-align:center;
 }
 
+
+#cakeSection h1{
+
+    font-size:28px;
+
+    line-height:1.2;
+
+    text-align:center;
+
+    padding:0 10px;
+
+}
+
+#giftSection h1{
+
+    font-size:28px;
+
+    line-height:1.3;
+
+    padding:0 20px;
+
+    margin-bottom:20px;
+
+}
 }
 
 
