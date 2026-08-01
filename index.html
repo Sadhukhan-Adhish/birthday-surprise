@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Shreya ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Loader -->
+
+<div id="loader">
+
+<h1>Loading Surprise...</h1>
+
+<div class="loading-bar">
+
+<div class="progress"></div>
+
+</div>
+
+</div>
+
+<!-- Welcome -->
+
+<section id="welcome">
+
+<div class="glass">
+
+<h3>✨ A Little Surprise Awaits...</h3>
+
+<h1>Hello Shreya ❤️</h1>
+
+<p>
+
+Someone created something
+special only for you.
+
+</p>
+
+<button id="startBtn">
+
+Continue →
+
+</button>
+
+</div>
+
+</section>
+
+
+
+<!-- PASSWORD VAULT -->
+
+<section id="passwordPage">
+
+    <div class="vault">
+
+        <div class="vault-icon">🔐</div>
+
+        <h1>Confidential Vault</h1>
+
+        <p class="subtitle">
+            ✨Some treasures are meant for one heart only✨
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="info-box">
+            <p><strong>Owner:</strong> Shreya ❤️</p>
+            <p><strong>Status:</strong> <span class="status">LOCKED</span></p>
+            <p><strong>Security:</strong> HIGH</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <label for="pass">
+            Enter Security Code
+        </label>
+
+        <input
+            type="password"
+            id="pass"
+            placeholder="••••">
+
+        <p class="hint">
+            💡 Hint: The day & month when the world's cutest girl was born 🎂
+        </p>
+
+        <button onclick="checkPassword()">
+            Unlock Surprise ✨
+        </button>
+
+        <p id="wrong"></p>
+
+    </div>
+
+</section>
+
+<!-- Countdown -->
+
+<section id="countdown">
+
+<h1 id="countText">
+
+3
+
+</h1>
+
+</section>
+
+<section id="flashScreen">
+    <div class="flashCircle"></div>
+</section>
+<!-- Birthday Hero -->
+<section id="hero">
+
+    <div class="stars"></div>
+
+    <!-- Shooting Stars -->
+    <div class="shooting-stars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Floating Hearts -->
+    <div class="hearts">
+        <span>❤</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>💗</span>
+        <span>💘</span>
+    </div>
+
+    <div class="hero-content">
+
+        <h1 id="typing"></h1>
+
+        <p id="message">
+            Today is all about YOU ✨<br>
+            May all your dreams come true.
+        </p>
+
+        <button id="giftBtn">
+            Open Your Gifts 🎁
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- GIFT SECTION -->
+<!-- ========================= -->
+
+<section id="giftSection">
+
+    <div class="gift-stars">
+
+<span>✨</span>
+<span>⭐</span>
+<span>💖</span>
+<span>✨</span>
+<span>⭐</span>
+<span>💜</span>
+
+</div>
+
+    <h1>✨ Your Birthday Surprises Await ✨</h1>
+
+    <div class="gift-container">
+
+        <div class="gift-box" id="gift1">
+    🎁
+    <p>Letter 💌</p>
+</div>
+<div class="gift-box" id="gift2">
+    ✨
+    <p>Magic Surprise</p>
+</div>
+
+<div class="gift-box" id="gift3">
+    🎂
+    <p>Birthday Cake</p>
+</div>
+
+    </div>
+
+</section>
+
+<!-- MAGIC SCROLL -->
+
+<section id="scrollSection">
+
+    <div id="scroll">
+
+        📜
+
+    </div>
+
+    <p>Tap the Magic Scroll ✨</p>
+
+</section>
+
+
+<section id="surpriseSection">
+    <div class="magic-hearts">
+
+<span>💖</span>
+<span>✨</span>
+<span>💕</span>
+<span>💜</span>
+<span>⭐</span>
+
+</div>
+    <h1 id="surpriseText"></h1>
+    <button id="backSurprise">⬅ Back</button>
+
+</section>
+
+
+<!-- ========================= -->
+<!-- CAKE SECTION -->
+<!-- ========================= -->
+
+<section id="cakeSection">
+
+    <h1>🎉 Make a Wish 🎉</h1>
+
+    <div class="cake">
+
+        <div class="candles">
+
+            <div class="candle" id="c1">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle" id="c2">
+                <div class="flame"></div>
+            </div>
+
+            <div class="candle" id="c3">
+                <div class="flame"></div>
+            </div>
+
+        </div>
+
+        <div class="layer top"></div>
+
+        <div class="layer middle"></div>
+
+        <div class="layer bottom"></div>
+
+    </div>
+
+    <p id="cakeHint">
+
+        Tap the candles 🕯
+
+    </p>
+
+    
+
+</section>
+
+<section id="finalSection">
+
+    <div id="fireworks"></div>
+
+<h1>
+
+Happy Birthday
+
+Shreya ❤️
+
+</h1>
+
+<p>
+
+May every dream you have
+
+come true.
+
+Stay happy,
+
+stay smiling,
+
+always.
+
+✨
+
+</p>
+
+<button id="backFinal">⬅ Back to Gifts</button>
+
+</section>
+
+<!-- CONFETTI -->
+
+<div id="confetti"></div>
+
+
+
+<!-- LETTER PAGE -->
+
+<section id="letterSection">
+
+    <div class="letter-card">
+
+        <h1>💌 Dear Shreya</h1>
+
+        <div id="letterText">
+
+            <p>
+                Happy Birthday ❤️
+            </p>
+
+            <p>
+                Today is your special day,
+                and I wanted to make something
+                different instead of sending
+                just another birthday message.
+            </p>
+
+            <p>
+                So I created this little website
+                especially for you.
+            </p>
+
+            <p>
+                I hope this brings a smile to
+                your face and makes your day
+                a little more special.
+            </p>
+
+            <p>
+                Wishing you lots of happiness,
+                success and beautiful moments.
+            </p>
+
+            <p>
+                Once again...
+            </p>
+
+            <h2>Happy Birthday Shreya ❤️</h2>
+
+        </div>
+
+        <button id="backBtn">
+            ← Back
+        </button>
+
+    </div>
+
+</section>
+
+<audio id="bgMusic" loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
