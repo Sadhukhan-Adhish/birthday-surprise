@@ -1588,8 +1588,7 @@ position:fixed;
 
 inset:0;
 
-justify-content:flex-start;
-padding-top:30px;
+justify-content:center;
 
 align-items:center;
 
@@ -1600,6 +1599,8 @@ background:black;
 z-index:950;
 
 text-align:center;
+
+padding:20px;
 
 }
 
@@ -2301,6 +2302,7 @@ transform:translateY(0);
 
 }
 
+
 #finalSection{
 
     padding-top:35px;
@@ -2308,5 +2310,11 @@ transform:translateY(0);
 }
 #finalSection{
     padding-bottom: max(30px, env(safe-area-inset-bottom));
+}
+
+#finalSection{
+    justify-content:center;
+    padding:20px;
+    padding-bottom:max(30px, env(safe-area-inset-bottom));
 }
 }
