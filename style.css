@@ -1036,17 +1036,19 @@ transform:scale(1);
 
 #giftSection h1{
 
-    font-size:30px;
+    font-size:28px;
 
     line-height:1.2;
 
     text-align:center;
 
-    padding:0 15px;
+    width:100%;
+
+    padding:0 12px;
+
+    box-sizing:border-box;
 
     margin-bottom:25px;
-
-    white-space:normal;
 
 }
 
@@ -1086,13 +1088,21 @@ transform:scale(1);
 #giftSection h1{
 
     position:relative;
-overflow:hidden;
 
     color:white;
 
     font-size:45px;
 
     margin-bottom:40px;
+
+    text-align:center;
+
+    width:100%;
+
+    padding:0 15px;
+
+    box-sizing:border-box;
+
     animation:slideDown .8s ease;
 
 }
