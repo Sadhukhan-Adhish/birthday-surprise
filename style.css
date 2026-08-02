@@ -1610,7 +1610,7 @@ padding:20px;
 
 #finalSection h1{
 
-    color:white;
+    color:#FFD700;
 
     font-family:"Great Vibes",cursive;
 
@@ -1623,7 +1623,6 @@ padding:20px;
     padding:0 20px;
 
 }
-
 #finalSection p{
 
     position:relative;
@@ -2222,7 +2221,7 @@ transform:translateY(0);
 
     font-size:26px !important;
 
-    color:yellow;
+    color:#FFD700 !important;
 
     line-height:1.2;
 
