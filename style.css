@@ -124,15 +124,15 @@ width:100%;
 
 display:none;
 
-width:100%;
+position:fixed;
 
-height:100vh;
-
-display:flex;
+inset:0;
 
 justify-content:center;
 
 align-items:center;
+
+padding:20px;
 
 }
 
@@ -207,17 +207,15 @@ display:none;
 
 position:fixed;
 
-top:0;
-
-left:0;
-
-width:100%;
-
-height:100vh;
+inset:0;
 
 justify-content:center;
 
 align-items:center;
+
+padding:20px;
+
+box-sizing:border-box;
 
 z-index:999;
 
@@ -227,7 +225,7 @@ background:linear-gradient(135deg,#0f172a,#2d0b55,#3b0764);
 
 .vault{
 
-width:480px;
+width:min(92%,480px);
 
 padding:40px;
 
@@ -2204,13 +2202,21 @@ transform:translateY(0);
 
     }
 
-    .vault-card{
+    .vault{
 
-        width:90%;
+    width:100%;
 
-        padding:25px;
+    max-width:380px;
 
-    }
+    padding:25px;
+
+}
+
+.vault h1{
+
+    font-size:34px;
+
+}
 
     #finalSection h1{
 
@@ -2262,9 +2268,7 @@ transform:translateY(0);
     font-size:42px;
 } */
 
-.vault-card h1{
-    font-size:42px;
-}
+
 
 .gift-box{
     width:115px;
@@ -2325,4 +2329,43 @@ transform:translateY(0);
     padding:20px;
     padding-bottom:max(30px, env(safe-area-inset-bottom));
 }
+
+/* Welcome page mobile */
+
+.glass{
+
+    width:92%;
+
+    max-width:360px;
+
+    padding:28px 18px;
+
+    margin:auto;
+
+}
+
+.glass h1{
+
+    font-size:46px;
+
+}
+
+.glass p{
+
+    font-size:18px;
+
+    line-height:1.6;
+
+}
+
+#welcome{
+
+    padding:20px;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
 }
