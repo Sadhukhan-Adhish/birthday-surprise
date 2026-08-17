@@ -223,19 +223,13 @@ scroll.addEventListener("click",()=>{
 });
 const lines = [
 
-"Not every gift",
-
-"comes in a box...",
-
-"Some are made",
-
-"with time...",
-
-"care...",
-
-"and a little bit",
-
-"of heart ❤️"
+ "And just like that...",
+    "20 begins. 🌸",
+    "A new chapter,",
+    "new memories,",
+    "new dreams,",
+    "and countless reasons to smile. ✨",
+    "May 20 be beautiful to you. 💫"
 
 ];
 
